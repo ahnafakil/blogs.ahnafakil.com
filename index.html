@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#181F22" />
+
+  <title>Blogs by Akil</title>
+  <meta name="description" content="Notes on the transition from IT Support to Software Engineering — what carries over, what doesn't, and what I'm learning in real time." />
+
+  <meta property="og:title" content="Blogs by Akil" />
+  <meta property="og:description" content="Notes on the transition from IT Support to Software Engineering." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://blogs.ahnafakil.com" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Manrope:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="assets/css/blog.css" />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%23181F22'/%3E%3Ctext x='50' y='65' font-family='serif' font-size='48' font-style='italic' fill='%23889DA9' text-anchor='middle'%3Ea%3C/text%3E%3C/svg%3E" />
+</head>
+<body>
+
+  <!-- ─── Navigation ─────────────────────────────────────── -->
+  <nav class="nav" aria-label="Primary">
+    <a href="index.html" class="nav-brand">
+      <span class="dot" aria-hidden="true"></span>
+      Blogs by Akil
+    </a>
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span>
+    </button>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">All Posts</a></li>
+      <li><a href="https://ahnafakil.com">Portfolio</a></li>
+      <li><a href="https://ahnafakil.com/projects.html">Projects</a></li>
+      <li><a href="https://ahnafakil.com/about.html">About</a></li>
+      <li><a href="https://ahnafakil.com/contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- ═══════════════════════════════════════════════════════
+       PROFILE HEADER
+       ═══════════════════════════════════════════════════════ -->
+  <section class="profile">
+    <div class="container">
+
+      <div class="profile-header">
+
+        <!-- Avatar -->
+        <div class="profile-avatar">
+          <div class="avatar-inner">
+            <!-- Replace with <img src="assets/img/akil.jpg" alt="Ahnaf Akil" /> when ready -->
+            <span class="avatar-letter">a</span>
+          </div>
+        </div>
+
+        <!-- Info -->
+        <div class="profile-info">
+          <div class="profile-top">
+            <span class="profile-name">Blogs by Akil</span>
+
+          </div>
+
+          <!-- Stats -->
+          <div class="profile-stats">
+            <div class="stat">
+              <span class="stat-num" id="post-count">—</span>
+              <span class="stat-label">Posts</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num" id="category-count">—</span>
+              <span class="stat-label">Categories</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num">2026</span>
+              <span class="stat-label">Since</span>
+            </div>
+          </div>
+
+          <!-- Bio -->
+          <div class="profile-bio">
+            <strong>Ahnaf Akil</strong> — IT Support Technician learning to build for the web.
+            Notes on the path from <span class="bio-tag">help desk</span> to
+            <span class="bio-tag">software engineering</span>.
+            Also: travel, projects, and the things that carry over between the two.
+          </div>
+        </div>
+
+      </div>
+
+
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════════
+       POST GRID
+       ═══════════════════════════════════════════════════════ -->
+  <div class="container">
+    <div id="post-grid" class="post-grid">
+      <div class="empty-state">
+        <p>Loading posts...</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════════════
+       DISCLAIMER
+       ═══════════════════════════════════════════════════════ -->
+  <div class="container">
+    <div class="disclaimer">
+      <span class="disclaimer-title">Disclaimer</span>
+      <p>
+        The views and opinions expressed on this blog are solely those of the author, Ahnaf Akil,
+        and do not represent the views of any employer, organization, or affiliated entity, past
+        or present. All content published here — including articles, essays, commentary, and code
+        samples — is provided on an "as is" basis for informational and educational purposes only.
+      </p>
+      <p>
+        Nothing on this site constitutes professional advice — whether technical, legal, financial,
+        or otherwise. You assume all risk associated with acting on any information found here.
+        The author makes no warranties or representations regarding the accuracy, completeness, or
+        reliability of any content and disclaims all liability for any damages arising from your use
+        of or reliance on this material.
+      </p>
+      <p>
+        All original content is &copy; <span data-year>2026</span> Ahnaf Akil unless otherwise stated.
+        Unauthorized reproduction, distribution, or commercial use of any content from this site
+        without prior written permission is prohibited. Third-party trademarks, logos, and brand
+        names referenced herein belong to their respective owners and are used solely for
+        identification purposes.
+      </p>
+      <p>
+        External links provided on this blog are for convenience only. The author does not endorse,
+        control, or assume responsibility for the content, privacy policies, or practices of any
+        linked third-party sites. By accessing and using this website, you agree to this disclaimer
+        in its entirety.
+      </p>
+    </div>
+  </div>
+
+  <!-- ─── Footer ─────────────────────────────────────────── -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <span class="footer-brand">— Blogs by Akil</span>
+        <span class="footer-meta">
+          <span data-year>2026</span>
+          <span class="sep">·</span>
+          <a href="https://ahnafakil.com">ahnafakil.com</a>
+          <span class="sep">·</span>
+          All rights reserved
+        </span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  <script>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", user => {
+        if (!user) {
+          window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
+          });
+        }
+      });
+    }
+  </script>
+  <script src="assets/js/app.js"></script>
+  <script src="assets/js/blog.js"></script>
+</body>
+</html>
